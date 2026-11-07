@@ -84,3 +84,6 @@ $("#gal").onclick=e=>{const g=e.target.dataset.g;if(g)open(`<img class="big" src
 $("#tabs").onclick=e=>{if(e.target.dataset.i){ti=+e.target.dataset.i;render()}};
 document.querySelector(".lang").onclick=e=>{const l=e.target.dataset.l;if(!l)return;L=l;try{localStorage.setItem("olt-lang",l)}catch(x){}render()};
 document.documentElement.classList.add("js");render();
+const bg=$("#bg"),nv=$("#nav"),shut=()=>{nv.classList.remove("open");bg.textContent="☰";bg.setAttribute("aria-expanded","false")};
+bg.onclick=()=>{const o=nv.classList.toggle("open");bg.textContent=o?"✕":"☰";bg.setAttribute("aria-expanded",o)};
+nv.onclick=e=>{if(e.target.tagName==="A")shut()};addEventListener("resize",()=>{if(innerWidth>1060)shut()});
