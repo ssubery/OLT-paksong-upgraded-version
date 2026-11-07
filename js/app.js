@@ -2,17 +2,14 @@ const IMG={red:"img/red.jpg",green:"img/green.jpg",white:"img/white.jpg",mul:"im
 const EN={
 "ຊາ ອົງລອງ 🍃":"Ong Long Tea 🍃","ປະຫວັດ":"History","ບໍລິການ":"Services","ເມນູ":"Menu","ຜະລິດຕະພັນ":"Products","ວິທີເຮັດຊາ":"How Tea Is Made","ຕິດຕໍ່":"Contact",
 "ຊາຈາກສວນ":"Tea from the","ປາກຊ່ອງ":"Paksong Plantation",
-"ສວນຊາ ອົງລອງ ແຂວງຈຳປາສັກ ເກັບຍອດຊາສົດ ຜະລິດດ້ວຍມືຂອງຄອບຄົວ ຊາທຸກຊະນິດລາຄາ 35,000 ກີບ":"Ong Long Tea Plantation, Champasak Province. Fresh tea buds picked and made by hand by our family. Every tea is 35,000 LAK.",
 "ເບິ່ງຜະລິດຕະພັນ":"View Products","ສອບຖາມທາງ WhatsApp":"Ask on WhatsApp",
 "ປະຫວັດຄວາມເປັນມາ":"Our History",
-"ຊາເປັນເຄື່ອງດື່ມທີ່ມີປະຫວັດຍາວນານ ມີຈຸດກຳເນີດຈາກປະເທດຈີນ ຄາດວ່າເກີນ 5,000 ປີ ແລະ ກາຍເປັນສ່ວນໜຶ່ງຂອງວັດທະນະທຳຂອງຫຼາຍປະເທດທົ່ວໂລກ":"Tea has a long history. It began in China, an estimated 5,000+ years ago, and has become part of the culture of many countries around the world.",
-"ສວນຊາ ອົງລອງ ສືບທອດມາຈາກຄົນລຸ້ນກ່ອນ ທີ່ເປັນຜູ້ບຸກເບີກການປູກກາເຟ ແລະ ຊາ ໃນປາກຊ່ອງ ຕັ້ງແຕ່ຊ່ວງຫຼັງການປົດປ່ອຍ ປັດຈຸບັນຄອບຄົວຮ່ວມກັນເບິ່ງແຍງທັງການເກັບກ່ຽວ ການຜະລິດ ແລະ ການຂາຍ":"Ong Long Tea Plantation was handed down from earlier generations who pioneered growing coffee and tea in Paksong, starting soon after the liberation. Today the family looks after the harvest, the production and the sales together.",
 "ສິ່ງທີ່ເຮົາພ້ອມໃຫ້ບໍລິການ":"What we offer",
 "🫖 ຈຳໜ່າຍຊາ":"🫖 Tea Sales","ຊາແດງ ຊາຂຽວ ຊາຂາວ ຊາໃບມອນ ແລະ ພິກໄທ ຈາກສວນ":"Black, green, white and mulberry tea, plus black pepper, straight from the plantation.",
 "🌿 ຢ້ຽມຊົມສວນຊາ":"🌿 Plantation Visits","ມາເບິ່ງສວນຊາ ແລະ ຂະບວນການຜະລິດຢູ່ປາກຊ່ອງ":"Come and see the plantation and how tea is made in Paksong.",
 "💬 ສັ່ງຊື້ ແລະ ສອບຖາມ":"💬 Orders & Inquiries","ສັ່ງຊື້ ຫຼື ສອບຖາມລາຍລະອຽດທາງ WhatsApp":"Order or ask for details on WhatsApp.",
-"ເມນູ ແລະ ລາຄາ":"Menu & Prices","ທຸກຊະນິດລາຄາດຽວກັນ":"Every tea is the same price",
-"ກົດ WhatsApp ເພື່ອສອບຖາມສິນຄ້າທີ່ສົນໃຈ":"Tap WhatsApp to ask about a product you like","ສອບຖາມ WhatsApp":"Ask on WhatsApp",
+"ເມນູ ແລະ ລາຄາ":"Menu & Prices",
+"ສອບຖາມ WhatsApp":"Ask on WhatsApp",
 "ໃຊ້ເວລາຫຼາຍມື້ ແລະ ຕ້ອງການຄວາມຊຳນານ":"It takes several days and real skill",
 "ເກັບຍອດຊາ":"Pick the buds","ເກັບສະເພາະ 3 ໃບທຳອິດທາງເທິງ":"Pick only the top 3 leaves.",
 "ຂົ້ວ":"Pan-fire","ໃບສົດບໍ່ເກີນ 3 ມື້ ຂົ້ວຈົນຫ່ຽວ ນ້ຳລະເຫີຍ 85-90%":"Use leaves no older than 3 days; fire until wilted and 85-90% of the water is gone.",
@@ -20,8 +17,7 @@ const EN={
 "ອົບ":"Dry","ອົບໃຫ້ແຫ້ງ ກ່ອນຫຸ້ມຫໍ່":"Dry the tea, then package it.",
 "ສັບພະຄຸນຂອງຊາ":"Benefits of Tea","ຂໍ້ມູນທົ່ວໄປ ບໍ່ແມ່ນຄຳແນະນຳທາງການແພດ":"General information, not medical advice.",
 "ຕິດຕໍ່ເຮົາ":"Contact Us","ບ້ານຫຼັກ 33, ເມືອງປາກຊ່ອງ, ແຂວງຈຳປາສັກ":"Ban Lak 33, Paksong District, Champasak Province",
-"📍 ແຜນທີ່ Google Maps":"📍 Google Maps","ຄຳແນະນຳກ່ອນມາສວນ":"Tips before you visit",
-"ຊ່ວງກາງເດືອນ 8 ມີຝົນ ແລະ ໝອກ ເດີນທາງລຳບາກ ຫຍ້າຂຶ້ນສູງ ອາດພົບງູ ແລະ ຂີ້ເຂັບ ຄວນໃສ່ເສື້ອແຂນຍາວ ໂສ້ງຂາຍາວ ແລະ ທາຢາກັນຍຸງ":"In mid-August there is rain and fog, travel is harder and the grass grows tall, so you may meet snakes and leeches. Wear long sleeves and long trousers, and use mosquito repellent.",
+"📍 ແຜນທີ່ Google Maps":"📍 Google Maps",
 "© ສວນຊາ ອົງລອງ · ປາກຊ່ອງ":"© Ong Long Tea Plantation · Paksong",
 "35,000 ກີບ":"35,000 LAK","ໃບຊາ":"Tea leaves",
 "ຊາແດງ":"Black Tea","ຊາຂຽວ":"Green Tea","ຊາຂາວ":"White Tea","ຊາໃບມອນ":"Mulberry Tea","ພິກໄທ":"Black Pepper",
@@ -35,7 +31,7 @@ const EN={
 "ສານຕ້ານອະນຸມູນອິດສະລະສູງ":"High in antioxidants","ອາດຊ່ວຍບຳລຸງຜິວໜັງ":"May nourish the skin","ອາດຊ່ວຍຫຼຸດນ້ຳໜັກ":"May help with weight loss","ອາດຊ່ວຍສຸຂະພາບແຂ້ວ":"May support dental health",
 "ຊ່ວຍຫຼຸດນ້ຳຕານໃນເລືອດ":"Helps lower blood sugar","ຊ່ວຍຫຼຸດຄໍເລສເຕີຣອນ":"Helps lower cholesterol","ຊ່ວຍການຂັບຖ່າຍ":"Aids digestion and regularity",
 "ສວນຊາ ອົງລອງ ແຂວງຈຳປາສັກ ເກັບຍອດຊາສົດ ຜະລິດດ້ວຍມືຂອງຄອບຄົວ ຊາລາຄາເລີ່ມຕົ້ນ 20,000 ກີບ":"Ong Long Tea Plantation, Champasak Province. Fresh tea buds picked and made by hand by our family. Teas start at 20,000 LAK.",
-"ຮູບພາບ":"Gallery","ປີ ປະຫວັດຂອງຊາ":"years of tea history","ຜະລິດຕະພັນ":"Products","ໃບທຳອິດທີ່ເກັບ":"top leaves picked","ກີບ ລາຄາເລີ່ມຕົ້ນ":"LAK starting price",
+"ຮູບພາບ":"Gallery","ປີ ປະຫວັດຂອງຊາ":"years of tea history","ໃບທຳອິດທີ່ເກັບ":"top leaves picked","ກີບ ລາຄາເລີ່ມຕົ້ນ":"LAK starting price",
 "ຊາເປັນເຄື່ອງດື່ມທີ່ມີປະຫວັດຍາວນານ ມີຈຸດກຳເນີດຈາກປະເທດຈີນ ແລະ ກາຍເປັນສ່ວນໜຶ່ງຂອງວັດທະນະທຳຂອງຫຼາຍປະເທດທົ່ວໂລກ":"Tea has a long history. It began in China and has become part of the culture of many countries around the world.",
 "ປະມານ 5,000 ປີກ່ອນ":"About 5,000 years ago","ຊາກຳເນີດໃນປະເທດຈີນ":"Tea is first made in China","ຫຼັງການປົດປ່ອຍ":"After the liberation","ຄົນລຸ້ນກ່ອນບຸກເບີກການປູກກາເຟ ແລະ ຊາ ໃນປາກຊ່ອງ":"Earlier generations pioneer coffee and tea growing in Paksong","ປັດຈຸບັນ":"Today","ຄອບຄົວຮ່ວມກັນດູແລສວນ ການຜະລິດ ແລະ ການຂາຍ":"The family runs the plantation, production and sales together",
 "ສວນຊາ":"Tea plantation","ລາຄາຂອງແຕ່ລະຊະນິດ":"Price of each product","20,000 ກີບ":"20,000 LAK",
@@ -46,7 +42,7 @@ const EN={
 "ລາຄາເທົ່າໃດ?":"How much is it?","ຊາແດງ ຊາຂຽວ ແລະ ຊາໃບມອນ 35,000 ກີບ ສ່ວນຊາຂາວ ແລະ ພິກໄທ 20,000 ກີບ":"Black, green and mulberry tea are 35,000 LAK. White tea and black pepper are 20,000 LAK.",
 "ຊາແດງ ກັບ ຊາຂຽວ ຕ່າງກັນແນວໃດ?":"What is the difference between black and green tea?","ມາຈາກຕົ້ນດຽວກັນ ແຕ່ຕ່າງກັນທີ່ວິທີຜະລິດ":"They come from the same plant but are made differently.",
 "ຊາໃບມອນມີຄາເຟອີນບໍ?":"Does mulberry tea contain caffeine?","ບໍ່ມີ ເປັນຊາສະໝຸນໄພຈາກໃບມອນ":"No. It is a herbal tea made from mulberry leaves.",
-"ເຂົ້າຢ້ຽມຊົມສວນໄດ້ບໍ?":"Can I visit the plantation?","ໄດ້ ແນະນຳໃຫ້ທັກ WhatsApp ກ່ອນ ແລະ ອ່ານຄຳແນະນຳກ່ອນມາສວນທາງລຸ່ມ":"Yes. We suggest messaging us on WhatsApp first and reading the visiting tips below."};
+"ເຂົ້າຢ້ຽມຊົມສວນໄດ້ບໍ?":"Can I visit the plantation?","ໄດ້ ແນະນຳໃຫ້ທັກ WhatsApp ກ່ອນເພື່ອນັດເວລາ":"Yes. Please message us on WhatsApp first to arrange a time."};
 let L="lo";try{L=localStorage.getItem("olt-lang")||"lo"}catch(e){}
 const WA="https://wa.me/8562091552398",wa=t=>WA+"?text="+encodeURIComponent(t),$=s=>document.querySelector(s);
 const PR={white:20000,pep:20000},price=p=>(PR[p.id]||35000).toLocaleString("en-US")+" ກີບ",KIND={pep:"ເຄື່ອງເທດ"};
@@ -86,4 +82,4 @@ document.querySelector(".lang").onclick=e=>{const l=e.target.dataset.l;if(!l)ret
 document.documentElement.classList.add("js");render();
 const bg=$("#bg"),nv=$("#nav"),shut=()=>{nv.classList.remove("open");bg.textContent="☰";bg.setAttribute("aria-expanded","false")};
 bg.onclick=()=>{const o=nv.classList.toggle("open");bg.textContent=o?"✕":"☰";bg.setAttribute("aria-expanded",o)};
-nv.onclick=e=>{if(e.target.tagName==="A")shut()};addEventListener("resize",()=>{if(innerWidth>1060)shut()});
+nv.onclick=e=>{if(e.target.tagName==="A")shut()};addEventListener("resize",()=>{if(innerWidth>1180)shut()});
