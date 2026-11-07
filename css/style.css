@@ -7,7 +7,7 @@ html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavio
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans Lao",system-ui,sans-serif}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--g);z-index:10}
-.w{max-width:1080px;margin:0 auto;padding:0 20px}
+.w{max-width:1180px;margin:0 auto;padding:0 20px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--g);color:#fff}
 header .w{display:flex;align-items:center;gap:18px;height:60px}
 .logo{font:800 1.3rem "Bricolage Grotesque","Noto Sans Lao",sans-serif;margin-right:auto}
@@ -88,3 +88,16 @@ details{background:var(--card);border:1px solid var(--line);border-radius:12px;p
 dialog img.big{width:100%;border-radius:12px}dialog{padding:18px}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.card,.im img,.gal img{transition:none}}
+
+body{overflow-x:clip}img{max-width:100%}
+header .w{position:static;gap:14px;flex-wrap:nowrap}header{position:sticky}
+.logo{white-space:nowrap}nav{flex-wrap:nowrap;white-space:nowrap}
+.hr{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.burger{display:none;background:transparent;border:1px solid rgba(255,255,255,.55);color:#fff;font-size:1.25rem;line-height:1;padding:6px 12px;border-radius:10px}
+.hero .btn{margin:4px 6px 4px 0}.two{flex-wrap:wrap}.gal{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+@media(max-width:1060px){
+nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--g);flex-direction:column;gap:0;padding:4px 20px 14px;box-shadow:0 14px 24px rgba(0,0,0,.28)}
+nav.open{display:flex}nav a{padding:13px 0;border-bottom:1px solid rgba(255,255,255,.18);font-size:1.05rem}
+.burger{display:block}}
+@media(max-width:520px){header .wa.sm{display:none}.logo{font-size:1.1rem}.hero .w{padding:70px 20px 110px}.stats{margin-top:-60px;gap:10px}.stats b{font-size:1.5rem}section{padding:40px 0}}
+@media(max-width:340px){.lang button{padding:3px 9px}}
