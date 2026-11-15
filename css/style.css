@@ -1,15 +1,20 @@
+@font-face{font-family:'Phetsarath OT';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/PhetsarathOT-Regular.woff2') format('woff2')}
+@font-face{font-family:'Phetsarath OT';font-weight:600;font-style:normal;font-display:swap;src:url('../fonts/PhetsarathOT-SemiBold.woff2') format('woff2')}
+@font-face{font-family:'Phetsarath OT';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/PhetsarathOT-Bold.woff2') format('woff2')}
+@font-face{font-family:'Phetsarath OT';font-weight:900;font-style:normal;font-display:swap;src:url('../fonts/PhetsarathOT-Black.woff2') format('woff2')}
+
 :root{--bg:#f3f7ef;--card:#fff;--ink:#16261c;--mut:#5d6f62;--g:#1f4a33;--leaf:#6fa23a;--line:#dbe5d4;--on:#fff;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a13;--card:#17251c;--ink:#e8f1e4;--mut:#9db3a2;--g:#2c6b49;--leaf:#8fc65a;--line:#2a3e30}}
 :root[data-theme="dark"]{--bg:#0f1a13;--card:#17251c;--ink:#e8f1e4;--mut:#9db3a2;--g:#2c6b49;--leaf:#8fc65a;--line:#2a3e30}
 html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans Lao",system-ui,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Phetsarath OT",system-ui,sans-serif}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--g);z-index:10}
 .w{max-width:1180px;margin:0 auto;padding:0 20px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--g);color:#fff}
 header .w{display:flex;align-items:center;gap:18px;height:60px}
-.logo{font:800 1.3rem "Bricolage Grotesque","Noto Sans Lao",sans-serif;margin-right:auto}
+.logo{font:800 1.3rem "Phetsarath OT",system-ui,sans-serif;margin-right:auto}
 nav{display:flex;gap:16px}nav a{color:#fff;text-decoration:none;opacity:.85}nav a:hover{opacity:1}
 @media(max-width:640px){nav{display:none}}
 button{font:inherit;cursor:pointer;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 14px}
@@ -19,11 +24,11 @@ header button{background:transparent;color:#fff;border-color:rgba(255,255,255,.5
 .hero{background:var(--g) center/cover;color:#fff;position:relative}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,40,26,.92) 35%,rgba(15,40,26,.35))}
 .hero .w{position:relative;z-index:1;padding:90px 20px 100px}
-.hero h1{font:800 clamp(2.4rem,7vw,4.4rem)/1.1 "Bricolage Grotesque","Noto Sans Lao",sans-serif;margin:0 0 14px;max-width:640px}
+.hero h1{font:800 clamp(2.4rem,7vw,4.4rem)/1.1 "Phetsarath OT",system-ui,sans-serif;margin:0 0 14px;max-width:640px}
 .hero p{max-width:480px;opacity:.9;margin:0 0 24px}
 .hero a.btn{display:inline-block;background:var(--leaf);color:#10210f;font-weight:700;padding:11px 26px;border-radius:99px;text-decoration:none}
 section{padding:56px 0}
-h2{font:800 clamp(1.6rem,4vw,2.2rem)/1.2 "Bricolage Grotesque","Noto Sans Lao",sans-serif;margin:0 0 6px}
+h2{font:800 clamp(1.6rem,4vw,2.2rem)/1.2 "Phetsarath OT",system-ui,sans-serif;margin:0 0 6px}
 .sub{color:var(--mut);margin:0 0 26px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
@@ -50,7 +55,7 @@ dialog h2{font-size:1.5rem}
 .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:12px}
 .tag{display:inline-block;background:var(--line);border-radius:99px;padding:0 10px;font-size:.85rem;margin:0 4px 4px 0}
 footer{background:var(--g);color:#fff;padding:36px 0;text-align:center}footer a{color:var(--leaf)}
-#pr{display:none;white-space:pre-line;font-family:"Noto Sans Lao",sans-serif}
+#pr{display:none;white-space:pre-line;font-family:"Phetsarath OT",system-ui,sans-serif}
 @media print{body>*{display:none!important}body>#pr{display:block!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
@@ -72,7 +77,7 @@ html[lang=en] small{display:none}@media(max-width:640px){header .w{gap:10px}.log
 .hero{background-position:center}.hero .w{padding:110px 20px 150px}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:-70px auto 0;position:relative;z-index:2;max-width:1040px;padding:0 20px}
 .stats div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.12)}
-.stats b{display:block;font:800 1.9rem/1.1 "Bricolage Grotesque",sans-serif;color:var(--g)}.stats span{color:var(--mut);font-size:.9rem}
+.stats b{display:block;font:800 1.9rem/1.1 "Phetsarath OT",system-ui,sans-serif;color:var(--g)}.stats span{color:var(--mut);font-size:.9rem}
 @media(prefers-color-scheme:dark){.stats b{color:var(--leaf)}}
 .tl{margin:18px 0 0;padding:0 0 0 22px;border-left:3px solid var(--leaf);display:grid;gap:16px}
 .tl div{position:relative}.tl div::before{content:"";position:absolute;left:-30px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--leaf);border:3px solid var(--bg)}
